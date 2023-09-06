@@ -1,0 +1,6 @@
+[controlnode]
+localhost
+
+[intranetweb]
+vm-20-node1-ansible
+vm-20-node2-ansible
