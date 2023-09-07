@@ -1,5 +1,6 @@
 [controlnode]
 localhost
+ansible_connection=loca
 
 [intranetweb]
 vm-20-node1-ansible
