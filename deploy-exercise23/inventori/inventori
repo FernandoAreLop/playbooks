@@ -1,0 +1,5 @@
+[dbservers]
+vm-20-node1-ansible.example.com
+
+[webservers]
+vm-20-node2-ansible.example.com
