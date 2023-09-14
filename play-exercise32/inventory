@@ -1,0 +1,11 @@
+192.168.0.1
+192.168.0.2
+
+[control]
+localhost ansible_connection=local
+
+[intranet]
+vm-20-node2-ansible
+
+[hypervisor]
+92.168.[4:7].[0:255]
