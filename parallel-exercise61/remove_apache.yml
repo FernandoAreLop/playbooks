@@ -1,0 +1,13 @@
+---
+- name: Remove httpd package
+  hosts: webservers
+  tasks:
+    - name: Stop httpd
+      ansible.builtin.service:
+        name: httpd
+        enabled: no
+        state: stopped
+    - name: Absent httpd
+      ansible.builtin.dnf:
+        name: httpd
+        state: absent
