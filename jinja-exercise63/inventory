@@ -1,0 +1,7 @@
+[webservers]
+vm-20-node1-ansible
+vm-20-node2-ansible
+
+[workstations]
+vm-20-control-ansible
+
